@@ -21,6 +21,8 @@ namespace Assets.SlimeRPG.Scripts.Player
         {
             if (_moneyAmount - amount >= 0)
                 _moneyAmount -= amount;
+            else
+                _moneyAmount = 0;
             OnMoneyChanged?.Invoke();
         }
     }

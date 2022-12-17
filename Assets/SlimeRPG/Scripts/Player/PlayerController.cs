@@ -31,7 +31,6 @@ namespace Assets.SlimeRPG.Scripts.Player
 
         public int EnemyDefeted { get; set; }
 
-
         private int _currentLevel;
         private Sequence _textSequence;
 
@@ -94,6 +93,7 @@ namespace Assets.SlimeRPG.Scripts.Player
             ShotSpeed(startASPD);
             EnemyDefeted = 0;
             _currentLevel = 1;
+            _playerMoneyController.RemoveMoney(_playerMoneyController.MoneyAmount);
             _respawnText.SetActive(true);
             EnableTextSequence();
         }

@@ -10,7 +10,8 @@ namespace Assets.SlimeRPG.Scripts.Enemy.Enemy_AI
 
         private Transform _lastTarget;
         private HealthController _playerHealthController;
-        private LevelController _levelController;
+        private EnemyDamage _enemyDamage;
+        private EnemyController _enemyController;
         private ColorChange _colorChange;
 
         private float _attackTime = 1.2f;
@@ -19,8 +20,8 @@ namespace Assets.SlimeRPG.Scripts.Enemy.Enemy_AI
         public EnemyTaskAttack(Transform transform)
         {
             _animator = transform.GetComponent<Animator>();
-            _animator.fireEvents = false;
-            _levelController = transform.GetComponent<LevelController>();
+            _enemyDamage = transform.GetComponent<EnemyDamage>();
+            _enemyController = transform.GetComponent<EnemyController>();
         }
 
         public override NodeState Evaluate()
@@ -41,12 +42,13 @@ namespace Assets.SlimeRPG.Scripts.Enemy.Enemy_AI
                     ClearData("target");
                     _animator.SetBool("Attacking", false);
                     _animator.SetBool("Idle", true);
+                    _enemyController.DeathAnimation();
                 }
                 else
                 {
                     _attackCounter = 0f;
                     _colorChange.DoHitFlash();
-                    _playerHealthController.DamageTaken(_levelController.generalDamage);
+                    _playerHealthController.DamageTaken(_enemyDamage.GeneralDamage);
                 }
             }
 

@@ -14,7 +14,7 @@ namespace Assets.SlimeRPG.Scripts.Enviroment
         private float _spawnPosition = -15;
         private const float _mapLength = 10;
         private int _startMaps = 3;
-        private float _speed = 4;
+        private float _speed = 3;
         private float _timeForWalk = 15;
 
         void Awake()
