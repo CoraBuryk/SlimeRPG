@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.SlimeRPG.Scripts.Enemy
 {
@@ -10,12 +9,13 @@ namespace Assets.SlimeRPG.Scripts.Enemy
 
         private void Start()
         {
-            InvokeRepeating("SpawnEnemy", 5f, 13f);
+            InvokeRepeating(nameof(CreateEnemy), 5f, 13f);
         }
 
-        private void SpawnEnemy()
+        private void CreateEnemy()
         {
-            Instantiate(_enemyPref, _enemySpawnPoints.position, Quaternion.identity);
+            GameObject newEnemy = Instantiate(_enemyPref, _enemySpawnPoints.position, Quaternion.identity);
+            newEnemy.transform.parent = _enemySpawnPoints;
         }
     }
 }

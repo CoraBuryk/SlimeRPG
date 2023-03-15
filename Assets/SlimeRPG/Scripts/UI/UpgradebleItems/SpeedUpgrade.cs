@@ -4,7 +4,7 @@ namespace Assets.SlimeRPG.Scripts.UI.UpgradebleItems
 {
     public class SpeedUpgrade : Items
     {
-        private const float _multiplier = 1.3f;
+        private const float _multiplier = 2f;
         private int _speed;
 
         public event Action<float> OnSpeedChange;

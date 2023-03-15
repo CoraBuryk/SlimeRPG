@@ -10,8 +10,8 @@ namespace Assets.SlimeRPG.Scripts.Enemy
         [SerializeField] private HealthBar _healthBar;
         [SerializeField] private RectTransform _panel;
 
-        private GameObject _levelProgress; 
-        private float _startHP = 40;
+        public GameObject _levelProgress; 
+        public float _startHP = 40;
 
         private void Awake()
         {
@@ -27,7 +27,7 @@ namespace Assets.SlimeRPG.Scripts.Enemy
         public void DeathAnimation()
         {
             Destroy(gameObject, 1.5f);
-            gameObject.SetActive(false);
+            gameObject.SetActive(false);      
         }
     }
 }

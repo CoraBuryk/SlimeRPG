@@ -18,6 +18,7 @@ namespace Assets.SlimeRPG.Scripts.Player
         [SerializeField] private LevelProgress _levelProgress;
         [SerializeField] private PlayerMoneyController _playerMoneyController;
         [SerializeField] private GameObject _respawnText;
+        [SerializeField] private CharacterController _characterController;
 
         private const int startHP = 100;
         private const int startATK = 10;
@@ -63,6 +64,11 @@ namespace Assets.SlimeRPG.Scripts.Player
         {
             PlayerHP = health;
             _healthController.UpdateHeal(PlayerHP);
+        }
+
+        public void PlayerMoving(float speed)
+        {
+            _characterController.Move(transform.forward * speed * Time.deltaTime);
         }
 
         private void LevelUp()

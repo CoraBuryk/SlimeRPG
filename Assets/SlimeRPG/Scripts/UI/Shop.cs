@@ -16,9 +16,9 @@ namespace Assets.SlimeRPG.Scripts.UI
         [SerializeField] private Button _speedUpgradeButton;
         [SerializeField] private Button _healthUpgradeButton;
 
-        [SerializeField] private TMP_Text _damageUpgradeCost;
-        [SerializeField] private TMP_Text _speedUpgradeCost;
-        [SerializeField] private TMP_Text _healthUpgradeCost;
+        [SerializeField] private TextMeshPro _damageUpgradeCost;
+        [SerializeField] private TextMeshPro _speedUpgradeCost;
+        [SerializeField] private TextMeshPro _healthUpgradeCost;
 
         [SerializeField] private PlayerMoneyController _moneyController;
 

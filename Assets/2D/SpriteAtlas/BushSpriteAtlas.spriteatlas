@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BushSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 0
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8e32be173c26d824188f2cefc1f7613f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1406c391b38e1da498f70f160db7b3b9, type: 3}
+  - {fileID: 21300000, guid: 282511f1a6def1c4b85a73120770d494, type: 3}
+  - {fileID: 21300000, guid: bdc2cd130aa0fd941814ad7f48f95048, type: 3}
+  - {fileID: 21300000, guid: 77881b34d7fe5f54d939dab27de44899, type: 3}
+  - {fileID: 21300000, guid: 8d107105d59963e46b0b1752f88d4c7e, type: 3}
+  - {fileID: 21300000, guid: dd9c23f54ab6d0a419beadfc9772d7e1, type: 3}
+  - {fileID: 21300000, guid: 70a3b2868f42f494d9a855845baebbe9, type: 3}
+  - {fileID: 21300000, guid: fa887e5793a65b546aca96ecebe410c7, type: 3}
+  - {fileID: 21300000, guid: ec3d9287f72ff944ebd1316f946e01bc, type: 3}
+  - {fileID: 21300000, guid: bfd2682805a8f6c4b9b2706c45b2d052, type: 3}
+  - {fileID: 21300000, guid: 30f98599ddd19674ab228b20e34937b6, type: 3}
+  - {fileID: 21300000, guid: f3ae24aa230df5242b2f5c879a43a987, type: 3}
+  - {fileID: 21300000, guid: 623989da08634ad44833af9d11926559, type: 3}
+  - {fileID: 21300000, guid: a9d0a13b4a7180646b9419bde31d7297, type: 3}
+  - {fileID: 21300000, guid: 9657a08c761705e4aaefa941766827ca, type: 3}
+  - {fileID: 21300000, guid: 97f3c58d2e46fd24298a7ea6e463856c, type: 3}
+  - {fileID: 21300000, guid: 933dfbee5338fd040bf69163c1165f31, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Bush9_1
+  - Bush8_1
+  - Bush2_1
+  - Bush3_3
+  - Bush5_4
+  - Bush4_1
+  - Bush8_4
+  - Bush10_3
+  - Bush3_1
+  - Bush7_3
+  - Bush8_2
+  - Bush5_3
+  - Bush4_2
+  - Bush7_1
+  - Bush10_2
+  - Bush8_3
+  - Bush2_2
+  m_RenderDataMap: {}
+  m_Tag: BushSpriteAtlas
+  m_IsVariant: 0

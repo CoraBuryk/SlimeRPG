@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UISpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 0
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e12afdf2f92b6e44aa3c4bae022e4a61, type: 3}
+    - {fileID: 102900000, guid: 975c9af9482263342b85bf0366a3f533, type: 3}
+    - {fileID: 102900000, guid: 2b071c38dc1e12a7297417349a8fc809, type: 3}
+    - {fileID: 102900000, guid: 2ed15aa4d94d1bdd191097562f969e2e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 87a7c4321fd50514c8e41d6779a071da, type: 3}
+  - {fileID: 21300000, guid: 467ed2c6bf8e215a68b9318b372523c2, type: 3}
+  - {fileID: 21300000, guid: 7414584b0a86c8e8b8bc27d172de10dc, type: 3}
+  - {fileID: 21300000, guid: 95052c6b62fb3de4695beaa99f842ac2, type: 3}
+  - {fileID: 21300000, guid: 394899dbf2938874ca7d1025f7598406, type: 3}
+  - {fileID: 21300000, guid: d06fa5eb5de6dcbb782d9dc3a56766b2, type: 3}
+  - {fileID: 21300000, guid: a4ccf63c4cebcdab598c187ca1fbdbbb, type: 3}
+  - {fileID: 21300000, guid: a83bb97ca266125a198ffc8deb53a092, type: 3}
+  - {fileID: 21300000, guid: a9de040de46f589f7873100a0550cdd7, type: 3}
+  - {fileID: 21300000, guid: 8f28955d92038974a9b04aafaeea79b0, type: 3}
+  - {fileID: 21300000, guid: 17fef95fe0d6af6d390a59a2d8364b4b, type: 3}
+  - {fileID: 21300000, guid: 90e99a7fde056a4418b9fe16084adb5c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Heart
+  - panel_element_17
+  - panel_element_26
+  - Silver Sword
+  - Golden Coin
+  - box_slider_fill_02
+  - panel_element_44
+  - button_03
+  - box_slider
+  - Iron Sword
+  - box_slider_fill_01
+  - Golden Sword
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

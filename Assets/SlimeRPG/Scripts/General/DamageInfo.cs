@@ -8,7 +8,7 @@ namespace Assets.SlimeRPG.Scripts.General
     public class DamageInfo : MonoBehaviour
     {     
         [SerializeField] private GameObject _floatingTextPrefab;
-        [SerializeField] private TMP_Text _damageText;
+        [SerializeField] private TextMeshPro _damageText;
         [SerializeField] private GameObject _parentTransform;
         private HealthController _healthController;
 

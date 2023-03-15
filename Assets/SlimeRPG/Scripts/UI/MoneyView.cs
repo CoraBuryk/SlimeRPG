@@ -6,7 +6,7 @@ namespace Assets.SlimeRPG.Scripts.UI
 {
     public class MoneyView : MonoBehaviour
     {
-        [SerializeField] private TMP_Text _coinsAmount;
+        [SerializeField] private TextMeshPro _coinsAmount;
         [SerializeField] private PlayerMoneyController _playerMoneyController;
 
         private void OnEnable()

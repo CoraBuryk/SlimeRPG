@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TreeSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 0
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 250ef349395104648bbe00afbb5dc596, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 544c0a501758edf4aa6176912ba021ea, type: 3}
+  - {fileID: 21300000, guid: da3312239bbcc4b4198288ac8e764479, type: 3}
+  - {fileID: 21300000, guid: c7860124615651546b4c692e732e2503, type: 3}
+  - {fileID: 21300000, guid: bdbe3424b82ee1f4bbcf18060f1bad3e, type: 3}
+  - {fileID: 21300000, guid: bfd06774d8038e045b7b332618d553e3, type: 3}
+  - {fileID: 21300000, guid: 8b16ddd4649a6a942927a1c3b21e2dcd, type: 3}
+  - {fileID: 21300000, guid: 1b80de25a0784dc409141e04e1605c16, type: 3}
+  - {fileID: 21300000, guid: 7aa71055246fde341ab9c367e93580c1, type: 3}
+  - {fileID: 21300000, guid: 310fc6369eba3d445bfb3162f617ef84, type: 3}
+  - {fileID: 21300000, guid: 33a05ae6014e89547a106a777c379713, type: 3}
+  - {fileID: 21300000, guid: fe2f1487e576ffc439580463c0a84b93, type: 3}
+  - {fileID: 21300000, guid: 20c1e5d87e660984c921a61102d04b86, type: 3}
+  - {fileID: 21300000, guid: 5686f94992a7b164dac82460b3c75b98, type: 3}
+  - {fileID: 21300000, guid: b897f2f9a4cbab2479dbe9a82b3ee7bf, type: 3}
+  - {fileID: 21300000, guid: 81d6fb9b59ee832459798e25afc9ce4f, type: 3}
+  - {fileID: 21300000, guid: aa2c6dcba63413240afbac2001a6a02b, type: 3}
+  - {fileID: 21300000, guid: bdf8004c7fc39a441bf7c02e14ba6be1, type: 3}
+  - {fileID: 21300000, guid: 3bf6764c093263d4383f4284b9d71d8b, type: 3}
+  - {fileID: 21300000, guid: 618f080dc90088742b150eea49666af2, type: 3}
+  - {fileID: 21300000, guid: 6b73eeed34e841344a02575091b300ea, type: 3}
+  - {fileID: 21300000, guid: 788aae0efc721634d9705514fdd6cc13, type: 3}
+  - {fileID: 21300000, guid: 376fe18ef55aaec4c993248cdd03c5da, type: 3}
+  - {fileID: 21300000, guid: ec39100fa01b839429159d9ac6221cb4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fir_tree_5
+  - winter_conifer_tree_12
+  - birch_2
+  - birch_7
+  - winter_conifer_tree_2
+  - jungle_tree_9
+  - jungle_tree_5
+  - jungle_tree_11
+  - birch_5
+  - winter_conifer_tree_10
+  - winter_conifer_tree_7
+  - winter_conifer_tree_6
+  - birch_1
+  - jungle_tree_1
+  - middle_lane_tree4
+  - jungle_tree_7
+  - jungle_tree_8
+  - winter_conifer_tree_1
+  - winter_tree_4
+  - winter_conifer_tree_9
+  - jungle_tree_6
+  - middle_lane_tree6
+  - jungle_tree_12
+  m_RenderDataMap: {}
+  m_Tag: TreeSpriteAtlas
+  m_IsVariant: 0
