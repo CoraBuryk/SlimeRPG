@@ -1,5 +1,5 @@
 # SlimeRPG
-Simple prototype of mobile game inspread by Legend of Slime: Idle RPG. 
+Simple prototype of mobile game inspread by Legend of Slime: Idle RPG. Additional technics: Behavior Tree
 
 #DEMO
 
