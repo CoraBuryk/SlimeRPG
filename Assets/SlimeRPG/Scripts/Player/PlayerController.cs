@@ -18,6 +18,7 @@ namespace Assets.SlimeRPG.Scripts.Player
         [SerializeField] private LevelProgress _levelProgress;
         [SerializeField] private PlayerMoneyController _playerMoneyController;
         [SerializeField] private GameObject _respawnText;
+        [SerializeField] private CharacterController _characterController;
 
         private const int startHP = 100;
         private const int startATK = 10;
@@ -30,7 +31,6 @@ namespace Assets.SlimeRPG.Scripts.Player
         public float PlayerASPD { get; set; } = startASPD;
 
         public int EnemyDefeted { get; set; }
-
 
         private int _currentLevel;
         private Sequence _textSequence;
@@ -66,6 +66,11 @@ namespace Assets.SlimeRPG.Scripts.Player
             _healthController.UpdateHeal(PlayerHP);
         }
 
+        public void PlayerMoving(float speed)
+        {
+            _characterController.Move(transform.forward * speed * Time.deltaTime);
+        }
+
         private void LevelUp()
         {
             if (EnemyDefeted > 0)
@@ -94,6 +99,7 @@ namespace Assets.SlimeRPG.Scripts.Player
             ShotSpeed(startASPD);
             EnemyDefeted = 0;
             _currentLevel = 1;
+            _playerMoneyController.RemoveMoney(_playerMoneyController.MoneyAmount);
             _respawnText.SetActive(true);
             EnableTextSequence();
         }

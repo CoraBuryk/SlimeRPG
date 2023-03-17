@@ -9,11 +9,13 @@ namespace Assets.SlimeRPG.Scripts.Player.Player_AI
 
         private Transform _transform;
         private Animator _animator;
+        private PlayerController _playerController;
 
         public CheckEnemyInFOVRange(Transform transform)
         {
             _transform = transform;
             _animator = transform.GetComponent<Animator>();
+            _playerController = transform.GetComponent<PlayerController>();
         }
 
         public override NodeState Evaluate()
@@ -27,6 +29,7 @@ namespace Assets.SlimeRPG.Scripts.Player.Player_AI
                 if (colliders.Length > 0)
                 {
                     parent.parent.SetData("enemy", colliders[0].transform);
+
                     _animator.SetBool("Walking", true);
                     state = NodeState.SUCCESS;
                     return state;

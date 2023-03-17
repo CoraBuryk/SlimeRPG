@@ -7,6 +7,7 @@ namespace Assets.SlimeRPG.Scripts.Player.Player_AI
     {
         public UnityEngine.Transform spawnPoint;
 
+        public static float speed = 4f;
         public static float fovRange = 8f;
         public static float attackRange = 5f;
 
@@ -24,7 +25,8 @@ namespace Assets.SlimeRPG.Scripts.Player.Player_AI
             {
                 new CheckEnemyInFOVRange(transform),
             }),
-        });
+            new PlayerMoveForwardTask(transform),
+        }) ;
 
             return root;
         }

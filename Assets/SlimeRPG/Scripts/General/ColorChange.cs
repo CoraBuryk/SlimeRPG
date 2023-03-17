@@ -40,7 +40,11 @@ namespace Assets.SlimeRPG.Scripts.General
             if (_hitColorRoutine != null)
                 StopCoroutine(_hitColorRoutine);
             _hitColorRoutine = HitColorRoutine();
-            StartCoroutine(_hitColorRoutine);
+
+            if(gameObject.active)
+                StartCoroutine(_hitColorRoutine);
+            else
+                StopCoroutine(_hitColorRoutine);
         }
 
         private IEnumerator HitColorRoutine()

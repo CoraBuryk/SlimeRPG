@@ -6,7 +6,7 @@ namespace Assets.SlimeRPG.Scripts.General
     public class HealthController : MonoBehaviour
     {
         private float _maxHP;
-        private float _currentHealth;
+        public float _currentHealth;
         public bool IsDead { get; set; } = false;
         public bool IsHited { get; set; } = false;
 

@@ -20,7 +20,7 @@ namespace Assets.SlimeRPG.Scripts.Player
         private void OnTriggerEnter(Collider other)
         {
             _healthController.DamageTaken(_damage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
